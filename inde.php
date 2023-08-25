@@ -40,6 +40,5 @@
     h.parentNode.insertBefore(c, h);
 })();
 </script>
-<script language="javascript" type="text/javascript" src="http://js.users.51.la/18759442.js"></script>
 </body>
 </html>
