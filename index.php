@@ -3,6 +3,7 @@
   
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>在线短信测压 智云短信测压</title>
     <link href="bootstrap.min.css" rel="stylesheet">
