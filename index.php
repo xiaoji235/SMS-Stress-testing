@@ -116,6 +116,18 @@
         <!--logo下面按钮-->
       </div>
       <div class="block full2">
+
+          <!--title-->
+<div class="block-title">
+        <ul class="nav nav-tabs" data-toggle="tabs">
+            <li style="width: 25%;" align="center" class="active"><a href="#shop" one-link-mark="yes"><i class="fa fa-crosshairs"></i> <b>功能操作</b></a></li>
+            <li style="width: 25%;" align="center" class=""><a href="#search" id="tab-query" one-link-mark="yes"><i class="fa fa-exclamation"></i> <b>问题解答</b></a></li>
+	    <li style="width: 25%;" align="center" class=""><a href="#Substation" one-link-mark="yes"><font color="#FF4000"><i class="fa fa-smile-o fa-spin"></i> <b>关注本站</b></font></a></li>
+            <li style="width: 25%;" align="center" class=""><a href="#more" one-link-mark="yes"><i class="fa fa-ellipsis-v"></i> <b>更多功能</b></a></li>
+	</ul>
+</div>
+
+          <!--content-->
         <div class="tab-content">
           <!--在线下单-->
           <div class="tab-pane active" id="shop">
