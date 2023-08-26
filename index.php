@@ -83,7 +83,7 @@
       <!--公告-->
       <div class="widget">
         <!--logo-->
-        <div class="widget-content themed-background-flat text-center" style="background-image:url(img/b3bf8e3c25dbbffaaee5ba769c4be844.jpg);background-size: 100% 100%;">
+        <div class="widget-content themed-background-flat text-center" style="background-image:url(img/title.svg);background-size: 100% 100%;">
           <a href="javascript:void(0)">
             <img src="duanxin.png" alt="Avatar" width="80" style="height: auto filter: alpha(Opacity=80);-moz-opacity: 0.80;opacity: 0.80;" class="img-circle img-thumbnail img-thumbnail-avatar-1x animated zoomInDown">
           </a>
