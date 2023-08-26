@@ -53,15 +53,15 @@
                 <div class="modal-body">
                   <p>
                     <li class="list-group-item">
-                      <span class="btn btn-info btn-xs">1</span>本站仅供授权人员使用!</li>
+                      <span class="btn btn-info btn-xs">1</span>&nbsp;本站仅供授权人员使用!</li>
                     <li class="list-group-item">
-                      <span class="btn btn-info btn-xs">2</span>请输入对方手机号点击启动后进行测压，可选择不同模式进行测压</li>
+                      <span class="btn btn-info btn-xs">2</span>&nbsp;请输入对方手机号点击启动后进行测压，可选择不同模式进行测压</li>
                     <li class="list-group-item">
-                      <span class="btn btn-info btn-xs">3</span>在提交手机号后，不要关闭本网页，系统会自动测压，测压过程中请勿关闭网页！</li>
+                      <span class="btn btn-info btn-xs">3</span>&nbsp;在提交手机号后，不要关闭本网页，系统会自动测压，测压过程中请勿关闭网页！</li>
                     <li class="list-group-item">
-                      <span class="btn btn-info btn-xs">3</span>测压平台不会记录任何信息，由系统自动提交执行测压</li>
+                      <span class="btn btn-info btn-xs">3</span>&nbsp;测压平台不会记录任何信息，由系统自动提交执行测压</li>
                     <li class="list-group-item">
-                      <span class="btn btn-info btn-xs">4</span>平台每30秒会自动执行当前已经输入的手机号进行持续云呼测压!</li>
+                      <span class="btn btn-info btn-xs">4</span>&nbsp;平台每30秒会自动执行当前已经输入的手机号进行持续云呼测压!</li>
                     <div class="btn-group btn-group-justified">
                       <a target="_blank" class="btn btn-warning" href="d.html">
                         <i class="fa fa-users">
@@ -122,7 +122,7 @@
         <ul class="nav nav-tabs" data-toggle="tabs">
             <li style="width: 25%;" align="center" class="active"><a href="#shop" one-link-mark="yes"><i class="fa fa-crosshairs"></i> <b>功能操作</b></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#search" id="tab-query" one-link-mark="yes"><i class="fa fa-exclamation"></i> <b>问题解答</b></a></li>
-	    <li style="width: 25%;" align="center" class=""><a href="#Substation" one-link-mark="yes"><font color="#FF4000"><i class="fa fa-smile-o fa-spin"></i> <b>关注本站</b></font></a></li>
+	    <li style="width: 25%;" align="center" class=""><a href="#Substation" one-link-mark="yes"><font color="#FF4000"><i class="fa fa-smile-o fa-spin"></i> <b>关于本站</b></font></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#more" one-link-mark="yes"><i class="fa fa-ellipsis-v"></i> <b>更多功能</b></a></li>
 	</ul>
 </div>
@@ -3363,21 +3363,40 @@ if($d>1){
 ?>
 
 <div class="tab-pane" id="search">
-
+  <table class="table table-striped table-borderless table-vcenter remove-margin-bottom">
+    <tbody>
+      <tr class="shuaibi-tip animation-bigEntrance">
+        <td class="text-center" style="width: 100px;">
+          <img src="https://avatars.githubusercontent.com/u/73387366?s=100&v=4" alt="avatar" class="img-circle img-thumbnail img-thumbnail-avatar">
+        </td>
+        <td>
+          <h4>
+            <strong>站长</strong>
+          </h4>
+          <i class="fa fa-fw fa-qq text-primary">
+          </i>Github
+          <br>
+          <i class="fa fa-fw fa-history text-danger"></i>bug issues见，出事别找我</td>
+        <td class="text-right" style="width: 20%;">
+          <a href="https://github.com/xiaoji235/SMS-Stress-testing/issues" target="_blank" data-toggle="modal" class="btn btn-sm btn-info">联系</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
   <br>
-  <span class="label label-primary">事项1:</span>本站永久免费提供，具体其他说明请点击公告查看！
+  <span class="label label-primary">事项1:</span>&nbsp;本站永久免费提供，具体其他说明请点击公告查看！
   <p></p>
   <p>
   </p>
-  <span class="label label-success">事项2:</span>输入号码点击测压即可开始测压
+  <span class="label label-success">事项2:</span>&nbsp;输入号码点击轰炸即可开始轰炸
   <p></p>
   <p>
   </p>
-  <span class="label label-warning">事项3:</span>关闭网页或者点击停止几分钟后即可停止测压
+  <span class="label label-warning">事项3:</span>&nbsp;关闭网页或者点击停止几分钟后即可停止轰炸
   <p></p>
   <p>
   </p>
-  <span class="label label-danger">事项4:</span>无敌模式可以同时测压多个手机号或者一个</div>
+  <span class="label label-danger">事项4:</span>&nbsp;无敌模式可以同时轰炸多个手机号或者一个</div>
 <br>
 <div id="result2" class="form-group" style="display:none;">
   <center>
@@ -3391,7 +3410,7 @@ if($d>1){
     <tbody>
       <tr>
         <td>
-          <img src="/duanxin.png" width="280" height="380" />
+          <img src="img/qr.png" width="280" height="280" />
         </td>
       </tr>
     </tbody>
@@ -3400,20 +3419,33 @@ if($d>1){
 <div class="tab-pane" id="more">
   <div class="row">
     <div class="col-sm-6">
-      <a href="inde.php" target="_blank" class="widget">
+      <a href="d.html" target="_blank" class="widget" one-link-mark="yes">
+        <div class="widget-content themed-background-info text-right clearfix" style="color: #fff;">
+          <div class="widget-icon pull-left">
+            <i class="fa fa-users">
+            </i>
+          </div>
+          <h2 class="widget-heading h3">
+            <strong>多开模式</strong>
+          </h2>
+          <span>点击进入</span>
+        </div>
+      </a>
+    </div>
+  <div class="col-sm-6">
+      <a href="inde.php" target="_blank" class="widget" one-link-mark="yes">
         <div class="widget-content themed-background-info text-right clearfix" style="color: #fff;">
           <div class="widget-icon pull-left">
             <i class="fa fa-apple">
             </i>
           </div>
           <h2 class="widget-heading h3">
-            <strong>无敌模式测压</strong>
+            <strong>无敌模式轰炸</strong>
           </h2>
           <span>点击进入</span>
         </div>
       </a>
-    </div>
-  </div>
+    </div></div>
 </div>
 <!--更多按钮结束-->
 </div>
@@ -3441,7 +3473,7 @@ if($d>1){
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.lazyload.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/app.js"></script>
 
 </body>
 </html>
