@@ -6,12 +6,12 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>在线短信测压 智云短信测压</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/oneui.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/layer.css" id="layuicss-layer">
     <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
     <script src="js/modernizr.min.js"></script>
     <style>.shuaibi-tip {
@@ -122,7 +122,7 @@
         <ul class="nav nav-tabs" data-toggle="tabs">
             <li style="width: 25%;" align="center" class="active"><a href="#shop" one-link-mark="yes"><i class="fa fa-crosshairs"></i> <b>功能操作</b></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#search" id="tab-query" one-link-mark="yes"><i class="fa fa-exclamation"></i> <b>问题解答</b></a></li>
-	    <li style="width: 25%;" align="center" class=""><a href="#Substation" one-link-mark="yes"><font color="#FF4000"><i class="fa fa-smile-o fa-spin"></i> <b>关于本站</b></font></a></li>
+	    <li style="width: 25%;" align="center" class=""><a href="#qb" one-link-mark="yes"><font color="#FF4000"><i class="fa fa-smile-o fa-spin"></i> <b>Q绑查询</b></font></a></li>
             <li style="width: 25%;" align="center" class=""><a href="#more" one-link-mark="yes"><i class="fa fa-ellipsis-v"></i> <b>更多功能</b></a></li>
 	</ul>
 </div>
@@ -3405,16 +3405,46 @@ if($d>1){
     </small>
   </center>
 </div>
-<div class="tab-pane animation-fadeInQuick2" id="Substation">
-  <table class="table table-borderless table-pricing">
-    <tbody>
-      <tr>
-        <td>
-          <img src="img/qr.png" width="280" height="280" />
-        </td>
-      </tr>
-    </tbody>
-  </table>
+
+
+<div class="tab-pane animation-fadeInQuick2" id="qb">
+<div class="list-group-item reed">
+  <center align="Middle" style="font-weight: bold;line-height: 20px;fo-size: 30px;color: #FF0000;">仅供自己使用查看自己的Q是否泄露 如已泄露请立即更换QQ密保手机号码</center>
+</div>
+    <div class="panel-body" style="text-align: center;">
+      <div class="list-group">
+        <div class="list-group-item list-group-item-warning" style="font-weight: bold;">
+          <span>输入QQ号码即可查询密保手机</span>
+        </div>
+        <div class="list-group-item list-group-item-info" style="font-weight: bold;">
+          <input class="form-control" id="input" placeholder="请输入QQ">
+        </div>
+        <div class="list-group-item">
+          <a onclick="qbang('cha')" class="btn btn-block btn-primary" style="background: linear-gradient(to right,#b221ff,#14b7ff);">查找</a>
+        </div>
+        <div class="list-group-item">
+          <!--</div>
+          <div class="list-group-item">
+          <a onclick="qbang('jiabai')" class="btn btn-block btn-primary" style="background: linear-gradient(to right,#5abdd8,#14b7ff);">加白</a>-->
+        </div>
+        <div class="list-group-item">
+          <div class="list-group-item list-group-item-warning" style="font-weight: bold;display: none;" id="jiexi_data">
+            <div class="input-group">
+              <span class="input-group-addon">手机号</span>
+              <input type="text" class="form-control" placeholder="" id="mobile">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">号码归属地</span>
+              <input type="text" class="form-control" placeholder="" id="mobileduqu" readonly="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="js/qb.js"></script>
+<script src="js/layer.js"></script>
+
+
 </div>
 <div class="tab-pane" id="more">
   <div class="row">
@@ -3474,6 +3504,6 @@ if($d>1){
 <script src="js/jquery.lazyload.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
-
+<script src="js/f12.js"></script>
 </body>
 </html>
