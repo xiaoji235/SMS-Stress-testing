@@ -356,7 +356,7 @@ if($d>1){
           <br>
           <i class="fa fa-fw fa-history text-danger"></i>bug issues见，出事别找我</td>
         <td class="text-right" style="width: 20%;">
-          <a href="https://github.com/xiaoji235/SMS-Stress-testing/issues" target="_blank" data-toggle="modal" class="btn btn-sm btn-info">联系</a>
+          <a href="#" target="_blank" data-toggle="modal" class="btn btn-sm btn-info">联系</a>
         </td>
       </tr>
     </tbody>
